@@ -11,5 +11,14 @@ func main() {
 
 	//Updateed Code to printf
 	fmt.Printf("welcome to %v booking application\n", confrenceName)
-	fmt.Printf("We have tota of %v and %v are still remaining", confrenceTickets, remainingTickets)
+	fmt.Printf("We have tota of %v and %v are still remaining\n", confrenceTickets, remainingTickets)
+
+	//More updated code
+	var userName string
+	var userTickets int
+
+	userName = "Pranav"
+	userTickets = 20
+
+	fmt.Printf("User %v booked %v tickets", userName, userTickets)
 }
